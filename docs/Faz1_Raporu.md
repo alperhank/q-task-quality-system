@@ -67,19 +67,18 @@ Ekip, dersin 2-3 haftalık faz teslim döngülerine uyum sağlamak amacıyla **S
 * **NFR-01 (Bakım Yapılabilirlik - Maintainability):** Hiçbir fonksiyonun McCabe Döngüsel Karmaşıklık (Cyclomatic Complexity) değeri **10'u geçmemelidir** (Hedef: <= 7).
 * **NFR-02 (Güvenilirlik & Test Edilebilirlik):** İş mantığı (Business Logic) modüllerinde birim test kapsama oranı (Code Coverage) **en az %80** olmalıdır.
 * **NFR-03 (Güvenlik):** Parolalar düz metin olarak saklanmamalı (SHA-256 + Salt ile özetlenmeli), tüm kritik durum geçişleri değiştirilemez denetim günlüğüne (Audit Log) kaydedilmelidir.
-
 ### 3.3. Sistem Use Case Diyagramı
 
 ```mermaid
 flowchart LR
-    subgraph Aktörler
+    subgraph Aktorler ["Aktörler"]
         A1(["Uzman (Assignee)"])
         A2(["Takım Lideri (Reviewer)"])
         A3(["Sistem Yöneticisi (Admin)"])
         SYS(["Zamanlayıcı / Sistem"])
     end
 
-    subgraph Q-Task: Kurumsal Görev ve Kalite Takip Sistemi
+    subgraph Sistem ["Q-Task Kurumsal Görev ve Kalite Takip Sistemi"]
         UC1("UC-01: Kimlik Doğrulama ve RBAC")
         UC2("UC-02: Görev Oluşturma ve Atama")
         UC3("UC-03: Dinamik Öncelik ve Otomatik SLA Hesabı")
@@ -94,10 +93,10 @@ flowchart LR
     A3 --> UC1
     A2 --> UC2
     A3 --> UC2
-    UC2 -.->|"<<include>>"| UC3
+    UC2 -.-> UC3
     A1 --> UC4
     A2 --> UC4
-    UC4 -.->|"<<include>>"| UC5
+    UC4 -.-> UC5
     SYS --> UC5
     A3 --> UC5
     A2 --> UC6
@@ -105,7 +104,9 @@ flowchart LR
     A1 --> UC7
     A2 --> UC7
     A3 --> UC7
-3.4. Kullanım Durumları (Use Cases) — (Kişi Başı 1 Adet, Toplam 7 Use Case)
+```
+
+### 3.4. Kullanım Durumları (Use Cases) — (Kişi Başı 1 Adet, Toplam 7 Use Case)
 UC-01: Kullanıcı Kimlik Doğrulama ve Rol Tabanlı Erişim Kontrolü (RBAC)
 Sorumlu Üye: Üye 1 (Alperhan Karşı)
 Aktörler: Tüm Kullanıcılar (Admin, Takım Lideri, Uzman)
