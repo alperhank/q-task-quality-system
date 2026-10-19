@@ -6,13 +6,13 @@ Bu proje, **Yazılım Kalite Standartları** dersi kapsamında kalite odaklı ya
 ## 👥 Ekip Üyeleri ve Sorumlulukları (7 Kişi)
 | Üye No | İsim Soyisim | Rol / Unvan | Sorumlu Olduğu Use Case |
 | :--- | :--- | :--- | :--- |
-| **Üye 1** | **Alperhan Karşı** | Ekip Lideri & Yazılım Mimarı | `UC-01`: Kullanıcı Kimlik Doğrulama ve RBAC |
-| **Üye 2** | [Üye 2 Adı] | İş Analisti & Gereksinim Mühendisi | `UC-02`: Kurumsal Görev Oluşturma ve Atama |
-| **Üye 3** | [Üye 3 Adı] | Scrum Master & Backend Geliştirici | `UC-03`: Dinamik Önceliklendirme ve Otomatik SLA Hesabı |
-| **Üye 4** | [Üye 4 Adı] | Kalite Güvence (QA) ve Test Lideri | `UC-04`: Görev Durum İş Akışı (State Machine) ve Kalite Onayı |
-| **Üye 5** | [Üye 5 Adı] | Güvenlik ve Risk Uzmanı (DevSecOps) | `UC-05`: SLA İhlal Tespiti ve Güvenlik Loglama (Audit Trail) |
-| **Üye 6** | [Üye 6 Adı] | Backend Geliştirici & Beyaz Kutu Test Uzmanı | `UC-06`: Departman ve Personel Kalite Metrikleri Analizi |
-| **Üye 7** | [Üye 7 Adı] | Ön Yüz (UI/UX) & Dokümantasyon Sorumlusu | `UC-07`: Gelişmiş Arama, Filtreleme ve Rapor Export |
+| **Üye 1** | Ahmet Karavuş | Ekip Lideri & Yazılım Mimarı | `UC-01`: Kullanıcı Kimlik Doğrulama ve RBAC |
+| **Üye 2** | Alperhan Karşı  | İş Analisti & Gereksinim Mühendisi | `UC-02`: Kurumsal Görev Oluşturma ve Atama |
+| **Üye 3** | Mehmet Kenan Dilberoğlu | Scrum Master & Backend Geliştirici | `UC-03`: Dinamik Önceliklendirme ve Otomatik SLA Hesabı |
+| **Üye 4** | AHMET SELİM DOSTABAKAN | Kalite Güvence (QA) ve Test Lideri | `UC-04`: Görev Durum İş Akışı (State Machine) ve Kalite Onayı |
+| **Üye 5** | KEREM ERDEN | Güvenlik ve Risk Uzmanı (DevSecOps) | `UC-05`: SLA İhlal Tespiti ve Güvenlik Loglama (Audit Trail) |
+| **Üye 6** | MEHMET ÜNSALAN | Backend Geliştirici & Beyaz Kutu Test Uzmanı | `UC-06`: Departman ve Personel Kalite Metrikleri Analizi |
+| **Üye 7** | Ilgın Çutok | Ön Yüz (UI/UX) & Dokümantasyon Sorumlusu | `UC-07`: Gelişmiş Arama, Filtreleme ve Rapor Export |
 
 ## 🛠️ Teknoloji Yığını ve Kalite Araç Seti (Tech Stack)
 * **Dil & Çatı:** Python 3.11+, FastAPI, Streamlit, SQLite, Pydantic
